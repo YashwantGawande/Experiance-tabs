@@ -36,7 +36,7 @@ function App() {
         <div className="underline"></div>
       </div>
       <div className="job-center">
-
+        {/*btn-conatiner*/}
         <div className="btn-container">
           {
             jobs.map((item, index) => {
@@ -50,7 +50,7 @@ function App() {
             })
           }
         </div>
-
+        {/*job-info*/}
         <article className='job-info'>
           <h3>{title}</h3>
           <h4>{company}</h4>
